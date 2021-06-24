@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvertApi", "AdvertApi\AdvertApi.csproj", "{96EBDD1F-AF93-444A-88C8-FAD25B15D688}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvertApi.Models", "AdvertApi.Models\AdvertApi.Models.csproj", "{C14F3646-2052-4A48-893F-9CB136E692C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96EBDD1F-AF93-444A-88C8-FAD25B15D688}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96EBDD1F-AF93-444A-88C8-FAD25B15D688}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96EBDD1F-AF93-444A-88C8-FAD25B15D688}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96EBDD1F-AF93-444A-88C8-FAD25B15D688}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C14F3646-2052-4A48-893F-9CB136E692C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C14F3646-2052-4A48-893F-9CB136E692C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C14F3646-2052-4A48-893F-9CB136E692C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C14F3646-2052-4A48-893F-9CB136E692C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9B1BA60-E96E-4910-9069-48B6F6FDF337}
+	EndGlobalSection
+EndGlobal
