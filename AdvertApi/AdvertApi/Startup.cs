@@ -1,3 +1,4 @@
+using AdvertApi.HealthChecks;
 using AdvertApi.Models;
 using AdvertApi.Services;
 using Microsoft.AspNetCore.Builder;
@@ -23,6 +24,7 @@ namespace AdvertApi
         {
             services.AddAutoMapper(typeof(AdvertModel));
             services.AddTransient<IAdvertStorageService, DynamoDBAdvertStorage>();
+            services.AddHealthChecks().AddCheck<StorageHealthCheck>("Storage");
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
@@ -48,6 +50,8 @@ namespace AdvertApi
             {
                 endpoints.MapControllers();
             });
+
+            app.UseHealthChecks("/health");
         }
     }
 }

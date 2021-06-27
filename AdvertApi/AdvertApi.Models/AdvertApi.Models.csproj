@@ -2,6 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <Authors>Sheikh Omer</Authors>
+    <Company>None</Company>
+    <Product>WebAdvertMicroServices</Product>
   </PropertyGroup>
 
 </Project>
